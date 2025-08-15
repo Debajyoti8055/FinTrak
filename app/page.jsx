@@ -13,7 +13,7 @@ export default function Home() {
     {/* Stats Section */}
     <section className="py-20 bg-blue-50">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {statsData.map((stats, index) => (
             <div key={index}>
               <div className="text-4xl font-bold text-blue-600 mb-2">
